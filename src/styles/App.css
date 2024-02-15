@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  border: solid;
+  border-width: 1px solid;
+  border-color: white;
+}
+
+p {
+  color: white;
+}

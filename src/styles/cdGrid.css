@@ -1,0 +1,11 @@
+.CdGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .CdGrid {
+        grid-template-columns: 1fr;
+    }
+}
